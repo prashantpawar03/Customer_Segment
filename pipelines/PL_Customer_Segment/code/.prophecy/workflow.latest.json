@@ -202,8 +202,8 @@
       "metadata" : {
         "label" : "product_customer_category_join",
         "slug" : "product_customer_category_join",
-        "x" : -480,
-        "y" : -180,
+        "x" : -540,
+        "y" : -200,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -532,7 +532,7 @@
       "metadata" : {
         "label" : "avg_basket_size_by_order",
         "slug" : "avg_basket_size_by_order",
-        "x" : -160,
+        "x" : -260,
         "y" : -100,
         "phase" : 0,
         "cache" : false,
@@ -700,8 +700,8 @@
       "metadata" : {
         "label" : "Product_Category_Description",
         "slug" : "Product_Category_Description",
-        "x" : -660,
-        "y" : 20,
+        "x" : -680,
+        "y" : -20,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -769,7 +769,7 @@
       "metadata" : {
         "label" : "DS_Customer_demographics",
         "slug" : "DS_Customer_demographics",
-        "x" : 80,
+        "x" : 60,
         "y" : 40,
         "phase" : 0,
         "cache" : false,
@@ -837,8 +837,8 @@
       "metadata" : {
         "label" : "DS_Purchase_Frequency",
         "slug" : "DS_Purchase_Frequency",
-        "x" : 80,
-        "y" : -260,
+        "x" : 60,
+        "y" : -280,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -914,8 +914,8 @@
       "metadata" : {
         "label" : "total_purchase_by_customer",
         "slug" : "total_purchase_by_customer",
-        "x" : -160,
-        "y" : -420,
+        "x" : -280,
+        "y" : -440,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -1109,7 +1109,7 @@
       "metadata" : {
         "label" : "DS_Items_Per_Order",
         "slug" : "DS_Items_Per_Order",
-        "x" : 80,
+        "x" : 60,
         "y" : -100,
         "phase" : 0,
         "cache" : false,
@@ -1159,8 +1159,8 @@
       "metadata" : {
         "label" : "order_frequency_by_customer",
         "slug" : "order_frequency_by_customer",
-        "x" : -160,
-        "y" : -260,
+        "x" : -260,
+        "y" : -280,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -1327,8 +1327,8 @@
       "metadata" : {
         "label" : "DS_Total_Purchase_by_Customer",
         "slug" : "DS_Total_Purchase_by_Customer",
-        "x" : 80,
-        "y" : -420,
+        "x" : 60,
+        "y" : -440,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -1377,7 +1377,7 @@
       "metadata" : {
         "label" : "unique_customers_projection",
         "slug" : "unique_customers_projection",
-        "x" : -160,
+        "x" : -260,
         "y" : 40,
         "phase" : 0,
         "cache" : false,
