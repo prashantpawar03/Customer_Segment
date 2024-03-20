@@ -6,13 +6,7 @@ from prophecy.libs import typed_lit
 from pl_customer_segment.config.ConfigStore import *
 from pl_customer_segment.udfs.UDFs import *
 
-def product_customer_category_join(
-        spark: SparkSession, 
-        in0: DataFrame, 
-        in1: DataFrame, 
-        in2: DataFrame, 
-        in3: DataFrame
-) -> DataFrame:
+def dataset_joins(spark: SparkSession, in0: DataFrame, in1: DataFrame, in2: DataFrame, in3: DataFrame) -> DataFrame:
     out0 = in0\
                .join(in2, in0.ProductID == in2.ProductID, "inner")\
                .join(in3, in0.Category == in3.Category, "inner")\

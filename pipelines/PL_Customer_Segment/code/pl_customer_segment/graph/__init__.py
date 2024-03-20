@@ -3,11 +3,11 @@ from .avg_basket_size_by_order import avg_basket_size_by_order
 from .DS_Product_Details import DS_Product_Details
 from .DS_Customer_demographics import DS_Customer_demographics
 from .DS_Total_Purchase_by_Customer import DS_Total_Purchase_by_Customer
+from .dataset_joins import dataset_joins
 from .DS_Purchase_Frequency import DS_Purchase_Frequency
 from .DS_Customer_Data import DS_Customer_Data
 from .total_purchase_by_customer import total_purchase_by_customer
 from .DS_Product_Order_Details import DS_Product_Order_Details
-from .product_customer_category_join import product_customer_category_join
 from .Product_Category_Description import Product_Category_Description
 from .DS_Items_Per_Order import DS_Items_Per_Order
 from .order_frequency_by_customer import order_frequency_by_customer
