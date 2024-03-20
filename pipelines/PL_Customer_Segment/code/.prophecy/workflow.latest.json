@@ -200,8 +200,8 @@
       "id" : "FpAd7dOwaXYK-4KPenNnc$$iVA90wkfSOqs9gYJ6EhZq",
       "component" : "Script",
       "metadata" : {
-        "label" : "unknown_script",
-        "slug" : "unknown_script",
+        "label" : "product_customer_category_join",
+        "slug" : "product_customer_category_join",
         "x" : -480,
         "y" : -180,
         "phase" : 0,

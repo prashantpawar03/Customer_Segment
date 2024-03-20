@@ -7,8 +7,8 @@ from .DS_Purchase_Frequency import DS_Purchase_Frequency
 from .DS_Customer_Data import DS_Customer_Data
 from .total_purchase_by_customer import total_purchase_by_customer
 from .DS_Product_Order_Details import DS_Product_Order_Details
+from .product_customer_category_join import product_customer_category_join
 from .Product_Category_Description import Product_Category_Description
 from .DS_Items_Per_Order import DS_Items_Per_Order
-from .unknown_script import unknown_script
 from .order_frequency_by_customer import order_frequency_by_customer
 from .unique_customers_projection import unique_customers_projection
