@@ -9,7 +9,7 @@
     "id" : "1",
     "uri" : "pipelines/PL_Customer_Segment",
     "language" : "python",
-    "fabricId" : "10064",
+    "fabricId" : "10090",
     "frontEndLanguage" : "sql",
     "mode" : "batch",
     "udfs" : {
@@ -771,7 +771,7 @@
         "slug" : "DS_Customer_demographics",
         "x" : 60,
         "y" : 40,
-        "phase" : 0,
+        "phase" : 3,
         "cache" : false,
         "detailedStats" : false,
         "isImported" : false
@@ -839,7 +839,7 @@
         "slug" : "DS_Purchase_Frequency",
         "x" : 60,
         "y" : -280,
-        "phase" : 0,
+        "phase" : 1,
         "cache" : false,
         "detailedStats" : false,
         "isImported" : false
@@ -916,7 +916,7 @@
         "slug" : "total_purchase_by_customer",
         "x" : -280,
         "y" : -440,
-        "phase" : 0,
+        "phase" : 1,
         "cache" : false,
         "detailedStats" : false,
         "isImported" : false
@@ -1111,7 +1111,7 @@
         "slug" : "DS_Items_Per_Order",
         "x" : 60,
         "y" : -100,
-        "phase" : 0,
+        "phase" : 2,
         "cache" : false,
         "detailedStats" : false,
         "isImported" : false
