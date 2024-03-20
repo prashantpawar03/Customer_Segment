@@ -10,7 +10,7 @@ def DS_Items_Per_Order(spark: SparkSession, in0: DataFrame):
     in0.write\
         .option("header", True)\
         .option("sep", ",")\
-        .mode("error")\
+        .mode("overwrite")\
         .option("separator", ",")\
         .option("header", True)\
         .csv("dbfs:/FileStore/Prashant_src/Output_Items_per_Order")

@@ -10,7 +10,7 @@ def DS_Total_Purchase_by_Customer(spark: SparkSession, in0: DataFrame):
     in0.write\
         .option("header", True)\
         .option("sep", ",")\
-        .mode("error")\
+        .mode("overwrite")\
         .option("separator", ",")\
         .option("header", True)\
         .csv("dbfs:/FileStore/Prashant_src/Output_Total_Purchase/")
