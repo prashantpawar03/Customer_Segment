@@ -200,8 +200,8 @@
       "id" : "FpAd7dOwaXYK-4KPenNnc$$iVA90wkfSOqs9gYJ6EhZq",
       "component" : "Script",
       "metadata" : {
-        "label" : "dataset_joins",
-        "slug" : "dataset_joins",
+        "label" : "Product_Customer_Category_Join",
+        "slug" : "Product_Customer_Category_Join",
         "x" : -540,
         "y" : -200,
         "phase" : 0,
@@ -534,7 +534,7 @@
         "slug" : "avg_basket_size_by_order",
         "x" : -260,
         "y" : -100,
-        "phase" : 0,
+        "phase" : 2,
         "cache" : false,
         "detailedStats" : false,
         "isImported" : false
@@ -771,7 +771,7 @@
         "slug" : "DS_Customer_demographics",
         "x" : 60,
         "y" : 40,
-        "phase" : 0,
+        "phase" : 5,
         "cache" : false,
         "detailedStats" : false,
         "isImported" : false
@@ -839,7 +839,7 @@
         "slug" : "DS_Purchase_Frequency",
         "x" : 60,
         "y" : -280,
-        "phase" : 0,
+        "phase" : 6,
         "cache" : false,
         "detailedStats" : false,
         "isImported" : false
@@ -1111,7 +1111,7 @@
         "slug" : "DS_Items_Per_Order",
         "x" : 60,
         "y" : -100,
-        "phase" : 0,
+        "phase" : 7,
         "cache" : false,
         "detailedStats" : false,
         "isImported" : false
@@ -1329,7 +1329,7 @@
         "slug" : "DS_Total_Purchase_by_Customer",
         "x" : 60,
         "y" : -440,
-        "phase" : 0,
+        "phase" : 4,
         "cache" : false,
         "detailedStats" : false,
         "isImported" : false
@@ -1379,7 +1379,7 @@
         "slug" : "unique_customers_projection",
         "x" : -260,
         "y" : 40,
-        "phase" : 0,
+        "phase" : 3,
         "cache" : false,
         "detailedStats" : false,
         "isImported" : false
