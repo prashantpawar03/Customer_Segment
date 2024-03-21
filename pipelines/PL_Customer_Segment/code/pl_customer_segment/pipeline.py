@@ -19,8 +19,8 @@ def pipeline(spark: SparkSession) -> None:
         df_DS_Product_Order_Details, 
         df_Product_Category_Description
     )
-    df_order_frequency_by_customer = order_frequency_by_customer(spark, df_Product_Customer_Category_Join)
     df_total_purchase_by_customer = total_purchase_by_customer(spark, df_Product_Customer_Category_Join)
+    df_order_frequency_by_customer = order_frequency_by_customer(spark, df_Product_Customer_Category_Join)
     df_avg_basket_size_by_order = avg_basket_size_by_order(spark, df_Product_Customer_Category_Join)
     df_unique_customers_projection = unique_customers_projection(spark, df_Product_Customer_Category_Join)
     DS_Total_Purchase_by_Customer(spark, df_total_purchase_by_customer)
